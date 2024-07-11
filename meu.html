@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            
+        }
+        td.num{
+            background-color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas</h1>
+    <table>
+        <tr>
+            <thead>
+                <td class="num">Estado</td>
+                <td class="num">População</td>
+            </thead>
+            <tbody>
+                <td>Minas Gerais</td>
+                <td>São Paulo</td>
+                <td>Rio de Janeiro</td>
+            </tbody>
+            <tfoot>
+                <td>Numero total de população:210.224.125</td>
+            </tfoot>
+        </tr>
+    </table>
+</body>
+</html>
