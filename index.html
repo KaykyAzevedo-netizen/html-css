@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>iframe</title>
     <style>
-        table{
-            border-collapse: collapse;
-            width: 100px;
-            
+        body{
+            font-family: Arial, Helvetica, sans-serif;
         }
-        tr{
-            border: 1px solid black;
-            background-color: gray;
-            color: white;
-            font-family: sans-serif , Arial;
-            
+        iframe#extra{
+            width: 95vw;
+            border: 2px solid black;
+
         }
     </style>
-</head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <td>Área</td> 
-            </tr>
-                <tr>
-                    <td>Disciplinas</td>
-                </tr>
-        </thead>
-    </table>
+    <h1>Teste com Iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum cum quos debitis, quas laboriosam quidem ullam! Tenetur alias nobis rerum fugit deserunt ratione itaque facilis. Iusto veritatis sapiente minima!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, iste molestiae facilis quaerat omnis quod. Libero, dicta! Reiciendis blanditiis placeat eum, repellendus, eius ut doloremque nulla, aliquam atque fugiat eos.
+    </p>
+    <ul>
+        <li><a href="paginas-extras/tabela001.html" target="frame">Primeira</a></li>
+        <li><a href="iframe001.html" target="frame">Segunda</a></li>
+        <li><a href="fundo006.html" target="frame">Terceira</a></li>
+    </ul>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil necessitatibus illo praesentium quam dolor corporis voluptatibus, ad error alias, ut recusandae dolores tempora accusamus aliquam vitae incidunt harum possimus dolore.</p>"
+    height="300" width="500" id="extra" name="frame"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum cum quos debitis, quas laboriosam quidem ullam! Tenetur alias nobis rerum fugit deserunt ratione itaque facilis. Iusto veritatis sapiente minima!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, iste molestiae facilis quaerat omnis quod. Libero, dicta! Reiciendis blanditiis placeat eum, repellendus, eius ut doloremque nulla, aliquam atque fugiat eos.
+    </p>
+    
 </body>
 </html>
