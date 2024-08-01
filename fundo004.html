@@ -3,19 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poscionamento</title>
+    <title>Tabelas exercitando</title>
     <style>
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            font-size: 4em;
+            margin-left: 29%;
+            
+        }
         body{
-            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
-            background-size: 100px ;
-            background-repeat:  no-repeat;
-            border: 1px dashed black;
-            height: 98vh;
-            background-position: center center;
+            background-color: lightgray;
+        }
+        table{
+            width: 500px;
+            height: 350px;
+            text-align: center;
+            margin-left: 29%;
+            margin-top: 10%;
+        }
+        td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 1.3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: white;
+        }
+        th{
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 2em;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 <body>
-    
+    <h1>Minha tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jõao</td>
+                <td>São Paulo</td>
+                <td>Corinthias</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>Rio de Janeiro</td>
+                <td>Flamengo</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>Minas Gerais</td>
+                <td>Botafogo</td>
+            </tr>
+            <tr>
+                <td>Maria Clara</td>
+                <td>Rio Grande do Sul</td>
+                <td>Palmeiras</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
