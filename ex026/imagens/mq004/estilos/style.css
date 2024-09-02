@@ -1,0 +1,58 @@
+@charset = "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    width: 90vw;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px black;
+}
+
+img#phone{display: block;}
+img#tablet{display: none;}
+img#pc{display: none;}
+img#impressora{display: none;}
+img#tv{display: none;}
+
+@media screen and (min-width:1200px) and (max-width:2000px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#impressora{display: none;}
+    img#tv{display: block;}
+}
+
