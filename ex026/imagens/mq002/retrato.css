@@ -1,0 +1,10 @@
+@charset = "UTF-8";
+
+/*Media query de retatro tela */
+
+body{
+    background-image: url(../cev-portrait.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center bottom;
+}

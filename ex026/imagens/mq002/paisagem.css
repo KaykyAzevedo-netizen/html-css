@@ -1,0 +1,10 @@
+@charset = "UTF-8";
+
+/*Media query de tela paisagem*/
+
+body{
+    background-image: url(../cev-landscape.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: left bottom;
+}
